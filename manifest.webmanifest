@@ -28,5 +28,24 @@
             "sizes": "512x512",
             "type": "image/png"
         }
+    ],
+"screenshots": [
+    {
+     "src": "images/screenshotmobile2.jpg",
+      "sizes": "1237x2203",
+      "type": "image/jpg",
+      "form_factor": "narrow",
+      "label": "Wonder Widgets"
+    },
+
+        {
+         "src": "images/Naamloos2.jpg",
+          "sizes": "1230x2181",
+          "type": "image/jpg",
+          "form_factor": "wide",
+          "label": "Wonder Widgets"
+        }   
     ]
-}
+    
+    }   
+
