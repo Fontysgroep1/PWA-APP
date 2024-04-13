@@ -19,7 +19,7 @@ body {
 
 /* Styling for the Parkie logo landing screen */
 .parkielogolandingscreen {
-    width: 250px; /* Set width */
+    width: 270px; /* Set width */
     height: 150px; /* Set height */
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Arrange items vertically */
@@ -37,7 +37,7 @@ body {
 
 /* Styling for the start screen button */
 #startscreenbutton {
-    width: 120px; /* Set width */
+    width: 180px; /* Set width */
     font-family: 'Euclid Galactic'; /* Font family name */
     flex-direction: row; /* Arrange items horizontally */
     align-items: center; /* Center items vertically */
@@ -67,11 +67,58 @@ body {
     height: 40vh; /* Make the container full height of the viewport */
 }
 
-/* Styling for the h1 element */
+/* Styling for the h2 element */
 h2 {
     font-family: 'Euclid Galactic'; /* Set the font family */
-    font-size: 60px;
+    font-size: 70px;
     color: rgb(255, 255, 255); /* Text color */
-    margin-left: 7%;
+    margin-left: 8%;
+}
+
+
+#registreercss {
+    font-family: 'Euclid Galactic'; /* Set the font family */
+    font-size: 40px;
+    color: rgb(255, 253, 253); /* Text color */
+    margin-left: 15%;
+}
+.registreer-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-around; /* Distribute space evenly between the buttons */
+    margin-left: 15%;
+}
+
+#idnaam,
+#wachtwoord
+{
+    width: 300px; /* Set width */
+    font-family: 'Euclid Galactic'; /* Font family name */
+    background-color: #ffffff; /* Button background color */
+    padding: 10px 20px; /* Adjust padding to provide space around the text */
+    display: block; /* Ensure the button behaves as a block-level element */
+    margin-left: 15%;
+    margin-top: 10px; /* Add some space between the buttons */
+    padding: 10px 20px; /* Adjust padding to provide space around the text */
+    text-align: left;
+}
+#volgendebutton,
+#meerinformatiebutton {
+    width: 300px; /* Set width */
+    font-family: 'Euclid Galactic'; /* Font family name */
+    padding: 10px 20px; /* Adjust padding to provide space around the text */
+    background: linear-gradient(to right, #82DC10, #94B5B2); /* Horizontal background gradient */
+    color: rgb(0, 0, 0); /* Text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 14px; /* Font size */
+    margin-top: 15px; /* Add some space between the buttons */
+    display: block; /* Ensure the button behaves as a block-level element */
+    margin-left: 15%;
+   
+}
+#meerinformatiebutton{
+    background: white; /* Horizontal background gradient */
+    width: 300px; /* Set width */
 }
 
