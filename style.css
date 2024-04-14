@@ -36,7 +36,7 @@ body {
 }
 
 /* Styling for the start screen button */
-#startscreenbutton {
+.startscreenbutton {
     width: 180px; /* Set width */
     font-family: 'Euclid Galactic'; /* Font family name */
     flex-direction: row; /* Arrange items horizontally */
@@ -65,6 +65,11 @@ body {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 40vh; /* Make the container full height of the viewport */
+    font-family: 'Euclid Galactic'; /* Set the font family */
+    font-size: 70px;
+    color: rgb(255, 255, 255); /* Text color */
+    margin-left:1%;
+    margin-right: 8%;
 }
 
 /* Styling for the h2 element */
@@ -78,7 +83,7 @@ h2 {
 
 #registreercss{
     font-family: 'Euclid Galactic'; /* Set the font family */
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 253, 253); /* Text color */
     margin-left: 15%;
 }
@@ -130,3 +135,21 @@ h2 {
     width: 300px; /* Set width */
 }
 
+#backarrow
+{
+    width: 45px;
+    height: 45px;
+    margin-left: 44%;
+    margin-top: 10%;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#group1{
+    font-family: 'Euclid Galactic'; /* Set the font family */
+    font-size: 12px;
+    color: rgb(255, 253, 253); /* Text color */
+    margin-left: 40%;
+    margin-top: 60%;
+}
