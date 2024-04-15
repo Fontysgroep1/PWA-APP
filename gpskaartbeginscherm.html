@@ -7,6 +7,12 @@
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="style.css">
     <script src="js/scripts.js" defer></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps.css"/>
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps-web.min.js"></script> 
+
 </head>
 <body>
    
@@ -16,7 +22,20 @@
      <img class="parkielogolandingscreen" src="/images/logoparkiepng.png" alt="Description of the image">
     
     </div>
-    <footer>parkeren</footer>
+
+    <div id="map" style="width: 100%; height: 60%;"></div>
+    
+    <script>
+      var map = tt.map({
+        key: "4vyIAKYGbJypR7tk4HqxuAAKFpZ43pyc",
+        container: "map",
+      })
+    </script>
+    <footer><div id="navbar">
+        <img class="iconparkeren" src="/images/parkerenicon1.png" alt="Description of the image">
+        <img class="iconaccount" src="/images/accounticon.png" alt="Description of the image">
+        <img class="iconactiviteit" src="/images/iconactiviteit.png" alt="Description of the image">
+    </div></footer>
 
 </body>
-</html>
+</html>                                                                            

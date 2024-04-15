@@ -198,3 +198,20 @@ h2 {
     /* Change the image on hover */
     content: url('/images/kenteken4.png');
 }
+#navbar{
+    scale: 1;
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Stack items vertically */
+    justify-content: space-around; /* Distribute space evenly between the buttons */
+}
+
+.iconparkeren,.iconactiviteit,.iconaccount{
+scale: 0.8;
+}
+.iconaccount{
+    margin-top: -6px;
+}
+.iconactiviteit{
+margin-top: -12px;
+margin-left: -17px;
+}
