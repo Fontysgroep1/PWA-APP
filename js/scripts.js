@@ -58,3 +58,17 @@ installPrompt.userChoice.then((choiceResult)=>{
   installPrompt=null;
 })
 })
+function changeImage() {
+  document.getElementById("kenteken").src = "/images/kentekent2.png";
+}
+
+function restoreImage() {
+  document.getElementById("kenteken").src = "/images/kenteken1.png";
+}
+function changeImage() {
+  document.getElementById("kenteken").src = "/images/kenteken3.png";
+}
+
+function restoreImage() {
+  document.getElementById("kenteken").src = "/images/kenteken4.png";
+}
