@@ -199,19 +199,35 @@ h2 {
     content: url('/images/kenteken4.png');
 }
 #navbar{
-    scale: 1;
-    display: flex; /* Use flexbox layout */
-    flex-direction: row; /* Stack items vertically */
-    justify-content: space-around; /* Distribute space evenly between the buttons */
-}
+  
+        scale: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: fixed; /* Position the navbar relative to the viewport */
+        bottom: 0; /* Position it at the bottom */
+        width: 100%; /* Make it full-width */
+        z-index: 999; /* Ensure it's above other elements */
+    }
+    
 
-.iconparkeren,.iconactiviteit,.iconaccount{
-scale: 0.8;
-}
-.iconaccount{
-    margin-top: -6px;
-}
-.iconactiviteit{
-margin-top: -12px;
-margin-left: -17px;
-}
+    .iconparkeren,.iconactiviteit,.iconaccount{
+        scale: 0.8;
+        }
+        .iconaccount{
+            margin-top: -6px;
+        }
+        .iconactiviteit{
+        margin-top: -12px;
+        margin-left: -17px;
+        }
+
+        #searchmap{
+            width: 30vh; /* Set width */
+            font-family: 'Euclid Galactic'; /* Font family name */
+            background-color: #ffffff; /* Button background color */
+            padding: 10px 20px; /* Adjust padding to provide space around the text */
+            margin-left: 15%;
+            z-index:1;
+            text-align: left; 
+        }
