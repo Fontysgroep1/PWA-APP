@@ -8,6 +8,11 @@ body {
     font-size: 16px; /* Set the base font size */
     overflow-x: hidden; /* Hide horizontal overflow */
     background: linear-gradient(to bottom, black, #1F3230, #1E3735); /* Background gradient */
+        max-width: 430px; /* Maximum width of 430px */
+        max-height: 930px; /* Maximum height of 930px */
+  
+    
+    
     /* Additional styles for body element if needed */
 }
 
