@@ -3,13 +3,13 @@ body {
     width: 100vw; /* Full width of the viewport */
     height: 100vh; /* Full height of the viewport */
     margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    /* padding: 0; */ /* Remove default padding */
     font-family: 'Euclid Galactic', sans-serif; /* Set the font family */
     font-size: 16px; /* Set the base font size */
     overflow-x: hidden; /* Hide horizontal overflow */
     background: linear-gradient(to bottom, black, #1F3230, #1E3735); /* Background gradient */
-        max-width: 430px; /* Maximum width of 430px */
-        max-height: 930px; /* Maximum height of 930px */
+    max-width: 430px; /* Maximum width of 430px */
+    max-height: 930px; /* Maximum height of 930px */
   
     
     
@@ -33,7 +33,7 @@ body {
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     margin-bottom: 30%; /* Add space at the bottom */
-    margin-left: 20%; /* Add space at the left */
+    margin-left: 25%; /* Add space at the left */
 }
 
 /* Styling for the start screen button container */
@@ -238,3 +238,17 @@ h2 {
             z-index:1;
             text-align: left; 
         }
+
+        /* Styling for the h2 element */
+h4 {
+    font-family: 'Euclid Galactic'; /* Set the font family */
+    font-size: 16px;
+    color: rgb(255, 255, 255); /* Text color */
+    margin-left: 8%;
+    margin-top: -4%;
+}
+
+#kenteken2{
+    margin-left: 60%;
+    margin-bottom: 1%;
+}
