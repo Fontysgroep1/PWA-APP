@@ -93,6 +93,7 @@ h2 {
     font-size: 30px;
     color: rgb(255, 253, 253); /* Text color */
     margin-left: 15%;
+    margin-top: 75%;
 }
 #controleeremail,#smalltext,#bigtext{
     font-family: 'Euclid Galactic'; /* Set the font family */
